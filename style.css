@@ -1,0 +1,53 @@
+
+body {
+    margin: 0;
+    font-family: 'Georgia', serif;
+    color: #f0c75e;
+    background: url('darkbackground.png') no-repeat center center fixed;
+    background-size: cover;
+}
+.hero {
+    background: url('background-hogwarts.png') no-repeat center center;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.title-box {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 40px;
+    border-radius: 10px;
+}
+h1 {
+    font-size: 3em;
+    margin: 0;
+}
+h2 {
+    font-size: 2em;
+}
+p, ul li {
+    font-size: 1.2em;
+}
+.section {
+    padding: 60px 20px;
+    max-width: 900px;
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.6);
+    margin-top: 20px;
+    border-radius: 10px;
+}
+.mindmap-img {
+    display: block;
+    margin: 20px auto;
+    max-width: 100%;
+    border: 3px solid #f0c75e;
+    border-radius: 10px;
+}
+.footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #111;
+    color: #ccc;
+}
